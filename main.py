@@ -5,9 +5,9 @@ import pymysql
 # Configuración de la base de datos
 def get_connection():
     return pymysql.connect(
-        host='localhost',
-        user='root',  # Cambia esto por tu usuario de la base de datos
-        password='123456',  # Cambia esto por tu contraseña
+        host='semi1-db.cn4g0aw6og5h.us-east-2.rds.amazonaws.com',
+        user='admin',  # Cambia esto por tu usuario de la base de datos
+        password='5rMGS8H;BUbw#?Y',  # Cambia esto por tu contraseña
         database='DB_Proyecto_1',
         cursorclass=pymysql.cursors.DictCursor
     )
